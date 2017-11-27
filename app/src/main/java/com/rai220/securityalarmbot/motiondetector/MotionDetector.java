@@ -21,9 +21,9 @@ import java.util.concurrent.Executors;
  * Created by rai220 on 10/24/16.
  */
 public class MotionDetector {
-    public static float SENS_HIGH = 30f;
+    public static float SENS_HIGH = 20f;
     public static float SENS_MEDIUM = 50f;
-    public static float SENS_LOW = 70f;
+    public static float SENS_LOW = 80f;
 
     public static void main(String[] args) {
         System.out.println("Test");
