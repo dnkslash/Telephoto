@@ -30,9 +30,9 @@ public class MotionDetectorController {
     private static final ExecutorService es = Executors.newCachedThreadPool();
 
     /** Для быстрых устройств */
-    private static final int SHORT_TIMEOUT = 3 * 1000;
+    private static final int SHORT_TIMEOUT = 2 * 1000;
     //private static final int IMAGE_HISTORY_SIZE = 5;
-    private static final int IMAGE_HISTORY_SIZE = 5;
+    private static final int IMAGE_HISTORY_SIZE = 3;
 
     private HiddenCamera2 camera;
     private MotionDetector motionDetector = null;
