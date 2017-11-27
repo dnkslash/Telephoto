@@ -62,7 +62,7 @@ public class AnimatedGifEncoder {
      *          int delay time in milliseconds
      */
     public void setDelay(int ms) {
-        delay = ms / 10;
+        delay = ms / 100;
     }
 
     /**
@@ -211,8 +211,8 @@ public class AnimatedGifEncoder {
      * @return
      */
     public void setQuality(int quality) {
-        if (quality < 1)
-            quality = 1;
+        if (quality < 10)
+            quality = 10;
         sample = quality;
     }
 
